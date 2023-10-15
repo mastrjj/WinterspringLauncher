@@ -23,8 +23,7 @@ When HermesProxy has an update it is automatically applied.
 ## Addons
 Most addons for 1.14.0 should work.  
 You can download older versions from CurseForge under the "Files" tab. ([Example](https://www.curseforge.com/wow/addons/questie/files/all?filter-game-version=2020709689%3A9094))  
-Here are some working recommendations:  
-(click the [[dl](#)] link to get a working zip)
+Here are some working recommendations: 
 ### Questing
 - [[dl](https://www.curseforge.com/wow/addons/questie/download/3519759)] [Questie](https://www.curseforge.com/wow/addons/questie) <- Must have. Even in combination with other addons.
 - [[dl](https://www.curseforge.com/wow/addons/guidelime/download/4026001)] [Guidelime (base)](https://www.curseforge.com/wow/addons/guidelime)
