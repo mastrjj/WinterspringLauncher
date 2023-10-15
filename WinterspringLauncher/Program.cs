@@ -44,7 +44,7 @@ class Launcher
         var api = new UpdateApiClient(config);
 
         Thread.Sleep(TimeSpan.FromSeconds(1));
-        IgnoreExceptions("update launcher", () => UpdateThisLauncherIfNecessary(api, weAreOnMacOs, onlyNotify: !config.AutoUpdateThisLauncher));
+        //IgnoreExceptions("update launcher", () => UpdateThisLauncherIfNecessary(api, weAreOnMacOs, onlyNotify: !config.AutoUpdateThisLauncher));
 
         if (config.RecreateDesktopShortcut && !weAreOnMacOs)
         {
@@ -130,7 +130,7 @@ class Launcher
                 if (onlyNotify)
                 {
                     Console.WriteLine("A new version was released, please update");
-                    Console.WriteLine("https://github.com/0blu/WinterspringLauncher/releases");
+                    Console.WriteLine("https://github.com/Juggalo187/WinterspringLauncher/releases");
                     Thread.Sleep(TimeSpan.FromSeconds(12));
                 }
                 else
@@ -320,7 +320,7 @@ class Launcher
     private static void PrintLogo()
     {
         Console.WriteLine($"Version: {GetVersionInformation()}");
-        Console.WriteLine("https://github.com/0blu/WinterspringLauncher");
+        Console.WriteLine("https://github.com/Juggalo187/WinterspringLauncher");
         Console.WriteLine("");
 
         void WriteWithASubtext(string logo, string subText)
@@ -340,7 +340,7 @@ class Launcher
         WriteWithASubtext("    ,,,,. .,,,,   ,,,,.   ,,,,", "         Launcher");
         Console.WriteLine("    .,,,,         ,,,,.   ,,,,");
         WriteWithASubtext("     ,,,,,,,...,,,,,,,   ,,,,.", "      Allows you to");
-        WriteWithASubtext("       ,,,,,,,,,,,..   .,,,,,", "      play on Everlook");
+        WriteWithASubtext("       ,,,,,,,,,,,..   .,,,,,", "      play on SoloCraft");
         WriteWithASubtext("   ,.        .       .,,,,,,", "    using the modern client");
         Console.WriteLine("     ,,,..      ..,,,,,,,.");
         Console.WriteLine("       .,,,,,,,,,,,,,,,");

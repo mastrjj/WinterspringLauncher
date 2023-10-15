@@ -67,8 +67,8 @@ public static class LauncherActions
     {
         try
         {
-            string linkName = "Play on Everlook";
-            string description = "Click here to play WoW on Everlook.org";
+            string linkName = "Play on SoloCraft";
+            string description = "Click here to play WoW on SoloCraft.org";
 
             var desktopPath = WindowsShellApi.GetDesktopPath();
             string shortcutPath = Path.Combine(desktopPath, $"{linkName}.lnk");

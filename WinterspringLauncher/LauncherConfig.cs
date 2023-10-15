@@ -11,7 +11,7 @@ public class LauncherConfig
 
     public int ConfigVersion { get; set; } = 1;
 
-    public string GitRepoWinterspringLauncher { get; set; } = "0blu/WinterspringLauncher";
+    public string GitRepoWinterspringLauncher { get; set; } = "Juggalo187/WinterspringLauncher";
     public string GitRepoHermesProxy { get; set; } = "WowLegacyCore/HermesProxy";
     public string GitRepoArctiumLauncher { get; set; } = "Arctium/WoW-Launcher";
 
@@ -25,7 +25,7 @@ public class LauncherConfig
     public bool RecreateDesktopShortcut { get; set; } = !RuntimeInformation.IsOSPlatform(OSPlatform.OSX);
     public bool AutoUpdateThisLauncher { get; set; } = false;
 
-    public string Realmlist { get; set; } = "logon.everlook.org";
+    public string Realmlist { get; set; } = "logon.solocraft.org";
 
     public static LauncherConfig GetDefaultConfig() => new LauncherConfig();
 
