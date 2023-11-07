@@ -67,8 +67,8 @@ public static class LauncherActions
     {
         try
         {
-            string linkName = "Play on SoloCraft";
-            string description = "Click here to play WoW on SoloCraft.org";
+            string linkName = "Play on sanctuarywow";
+            string description = "Click here to play WoW on sanctuarywow.com";
 
             var desktopPath = WindowsShellApi.GetDesktopPath();
             string shortcutPath = Path.Combine(desktopPath, $"{linkName}.lnk");
