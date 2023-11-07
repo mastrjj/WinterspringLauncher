@@ -130,7 +130,7 @@ class Launcher
                 if (onlyNotify)
                 {
                     Console.WriteLine("A new version was released, please update");
-                    Console.WriteLine("https://github.com/Juggalo187/WinterspringLauncher/releases");
+                    Console.WriteLine("https://github.com/mastrjj/WinterspringLauncher/releases");
                     Thread.Sleep(TimeSpan.FromSeconds(12));
                 }
                 else
@@ -320,7 +320,7 @@ class Launcher
     private static void PrintLogo()
     {
         Console.WriteLine($"Version: {GetVersionInformation()}");
-        Console.WriteLine("https://github.com/Juggalo187/WinterspringLauncher");
+        Console.WriteLine("https://github.com/mastrjj/WinterspringLauncher");
         Console.WriteLine("");
 
         void WriteWithASubtext(string logo, string subText)
@@ -340,7 +340,7 @@ class Launcher
         WriteWithASubtext("    ,,,,. .,,,,   ,,,,.   ,,,,", "         Launcher");
         Console.WriteLine("    .,,,,         ,,,,.   ,,,,");
         WriteWithASubtext("     ,,,,,,,...,,,,,,,   ,,,,.", "      Allows you to");
-        WriteWithASubtext("       ,,,,,,,,,,,..   .,,,,,", "      play on SoloCraft");
+        WriteWithASubtext("       ,,,,,,,,,,,..   .,,,,,", "      play on sanctuarywow");
         WriteWithASubtext("   ,.        .       .,,,,,,", "    using the modern client");
         Console.WriteLine("     ,,,..      ..,,,,,,,.");
         Console.WriteLine("       .,,,,,,,,,,,,,,,");

@@ -11,7 +11,7 @@ public class LauncherConfig
 
     public int ConfigVersion { get; set; } = 1;
 
-    public string GitRepoWinterspringLauncher { get; set; } = "Juggalo187/WinterspringLauncher";
+    public string GitRepoWinterspringLauncher { get; set; } = "mastrjj/WinterspringLauncher";
     public string GitRepoHermesProxy { get; set; } = "WowLegacyCore/HermesProxy";
     public string GitRepoArctiumLauncher { get; set; } = "Arctium/WoW-Launcher";
 
