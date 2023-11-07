@@ -3,9 +3,9 @@
 </figure>
 
 # Winterspring Launcher
-Allows you to play on [SoloCraft.org](https://SoloCraft.org/) with modern 1.14 WoW Client!  
-_This is not an official project from the SoloCraft team._  
-_Do not ask the SoloCraft team for support_  
+Allows you to play on [sanctuarywow.com](https://sanctuarywow.com/) with modern 1.14 WoW Client!  
+_This is not an official project from the sanctuarywow team._  
+_Do not ask the sanctuarywow team for support_  
 _(you can still ask in [#addons-and-ui](https://discord.com/channels/973529971740008448/983067524797177996) on Discord)_ 
 
 ## Easy setup
@@ -17,7 +17,7 @@ When HermesProxy has an update it is automatically applied.
 1. **Download [the latest .exe release](https://github.com/Juggalo187/WinterspringLauncher/releases/tag/Releases**
 2. Place it in a separate directory (On first launch it will create subfolders and a desktop icon)
 3. Run it
-4. **Enjoy your stay on SoloCraft**
+4. **Enjoy your stay on sanctuarywow**
 
 
 ## Addons
@@ -42,7 +42,7 @@ The modern WoW-Classic client provides many improvements in hardware compatibili
 The launcher will make the classic client accessible to everyone.  
 
 ## Is this allowed?
-Currently HermesProxy is tolerated on SoloCraft.  
+Currently HermesProxy is tolerated on sanctuarywow.  
 ⚠️You **will** get suspended if you exploit any game breaking bugs.  
 So far no-one has been banned for using official HermesProxy.  
 Just use common sense and <u>**play fair**</u>!
