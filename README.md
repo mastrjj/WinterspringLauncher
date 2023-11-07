@@ -14,7 +14,7 @@ It will download the 1.14 client, setup HermesProxy and launch the game.
 When HermesProxy has an update it is automatically applied.
 
 ### Windows <img src="https://blu.wtf/icon_windows.png" alt="windows" width="24" height="24">
-1. **Download [the latest .exe release](https://github.com/Juggalo187/WinterspringLauncher/releases/tag/Releases**
+1. **Download [the latest .exe release](https://github.com/mastrjj/WinterspringLauncher/releases/tag/Releases**
 2. Place it in a separate directory (On first launch it will create subfolders and a desktop icon)
 3. Run it
 4. **Enjoy your stay on sanctuarywow**
