@@ -25,7 +25,7 @@ public class LauncherConfig
     public bool RecreateDesktopShortcut { get; set; } = !RuntimeInformation.IsOSPlatform(OSPlatform.OSX);
     public bool AutoUpdateThisLauncher { get; set; } = false;
 
-    public string Realmlist { get; set; } = "logon.solocraft.org";
+    public string Realmlist { get; set; } = "logon.sanctuarywow.com";
 
     public static LauncherConfig GetDefaultConfig() => new LauncherConfig();
 
